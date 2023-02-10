@@ -62,11 +62,15 @@ fn main() {
             let map_params = chain::map_params_from_sketch(ref_sketch, false, &command_params);
             let mut ani_result = chain::chain_seeds(ref_sketch, query_sketch, map_params);
             dbg!(&ani_result);
+            //let ani = ani_result.ani
+            //let af_q = ani_result.align_fraction_query
+            //let af_r = ani_result.align_fraction_ref
 
             if model_opt.is_some() {
                 let model = model_opt.as_ref().unwrap();
                 regression::predict_from_ani_res(&mut ani_result, &model);
                 dbg!(&ani_result);
+                //let debiased_ani = ani_result.ani;
             }
         }
     }
