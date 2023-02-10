@@ -12,7 +12,14 @@ If there I receive enough feature requests, I'll add a docs.rs for skani (and cl
 
 ## Usage
 
-see `src/main.rs` for the main example and `Cargo.toml` for how to add skani as a dependency. You'll probably want to use a specific version right now.
+see `src/main.rs` for the main example and `Cargo.toml` for how to add skani as a dependency:
+
+```rust
+[dependencies]
+skani = "0.1.0"
+```
+ 
+You'll probably want to use a specific version right now (0.1.0).
 
 simply run 
 ```sh
