@@ -8,7 +8,7 @@ skani is a tool for calculating ANI from metagenomic sequences very quickly usin
 skani is also available on crates.io here: https://crates.io/crates/skani. Due to requests for using skani through a rust API, I have included
 in this repository an example of how to use skani as a library. 
 
-If there I receive enough feature requests, I'll add a docs.rs for skani (and clean up the API more). For now, just see the example and check out [pyskani](https://github.com/althonos/pyskani/tree/main/pyskani) for hints on how to wrap skani's internals. 
+Depending on the interest, I may clean up the API and keep the https://docs.rs/skani/0.1.0/skani/ docs more updated.. For now, just see the example and check out [pyskani](https://github.com/althonos/pyskani/tree/main/pyskani) for hints on how to wrap skani's internals. 
 
 ## Usage
 
