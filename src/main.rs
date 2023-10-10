@@ -46,9 +46,8 @@ fn main() {
     sketch_params.c = 200;
 //    sketch_params.c = 30;
 
-    //Learned regression model only when c > 70 by default. 
-    //skani uses learned ani debiasing via regression only when c > 70 by default. I don't
-    //recommend using it when c < 70. 
+    //Learned regression model only when c >= 70 by default. 
+    //skani uses learned ani debiasing via regression only when c >= 70 by default
     let use_learned_ani = true;
 //    let use_learned_ani = false;
 
